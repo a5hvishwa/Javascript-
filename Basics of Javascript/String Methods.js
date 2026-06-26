@@ -1,0 +1,12 @@
+let name = "  vishwassaini  ";
+console.log(name.length);
+console.log(name);
+secondname = name.trim();
+console.log(secondname.length);
+console.log(secondname);
+thirdname = secondname.toUpperCase();
+console.log(thirdname);
+fourthname = thirdname.toLowerCase();
+console.log(fourthname);
+Lastname = fourthname.slice(0,6);
+console.log(Lastname);
